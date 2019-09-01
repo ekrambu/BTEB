@@ -1,0 +1,299 @@
+
+body{
+    background: url('img/bg_main.gif') repeat-y scroll center top;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 960px;
+    margin: 0 auto;
+}
+.banner{
+    width: 100%;
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    background: #683091;
+	border-bottom: 5px solid #8DBE51;
+}
+.logo{
+    width: 195px;
+    float:left;
+}
+.logo i{
+
+}
+.logo a{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 2px;
+    width: 150px;
+    position: absolute;
+}
+.select-nav{
+    float:left;
+}
+.banner-select{
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.select-btn{
+    background: green;
+    height: 30px;
+    margin-top: 10px;
+}
+.banner-left{
+
+}
+.banner-search{
+    margin-left: 470px;
+    float:right;
+    margin-top: -45px;
+}
+.input-area{
+    height: 30px;
+}
+.search-area{
+    height: 30px;
+    background: green;
+    color: #fff;
+}
+.right-btn{
+    height: 30px;
+}
+.slider-text{
+    margin-top: -200px;
+    z-index: 100;
+    margin-left: 30px;
+    position: absolute;
+}
+.slider-text img{
+    float:left;
+}
+.slider-text h5{
+    color: #fff;
+    float: left;
+    text-shadow: 5px 5px 2px #666;
+}
+.slider-text p{
+    color: #fff;
+    text-shadow: 5px 5px 3px #000;
+}
+.carousel-item img{
+    width: 100%;
+    height: 300px;
+    margin-left: px;
+}
+
+
+/*============Navbar Section Styling===============*/
+.navbar-nav{
+    border-bottom: 2px dotted #ddd;
+}
+.navbar-nav li{
+    padding: 0px 5px;
+    border-right: 2px dotted #ddd;
+}
+.navbar-nav li:first-child{
+    border-left: 2px dotted #ddd;
+}
+.span-icon{
+    z-index: 200;
+    position: relative;
+}
+/*=================Left Content Section Styling========================*/
+.mrqSection{
+    width: 100%;
+    height: 100px;
+    background: #ddd;
+    display: inline-block;
+    border: 2px solid #333;
+	overflow: hidden;
+}
+.mrqSection h5{
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+.mrqSection ul{
+    height: 100px;
+}
+.mrqSection ul li{
+    display: inline-block;
+    position: relative;
+    color: #222;
+}
+marquee{
+    float: left
+}
+.mrqSection button{
+    float: right;
+    position: relative;
+    margin-left: -50px;
+    margin-top: -32px;
+}
+.notice{
+    border: 2px solid #333;
+    padding: 50px 0;
+    background: #EEEEEE;
+    margin-top: 20px;
+	height: 250px;
+}
+.notice img{
+    margin-top: -50px;
+	float: left;
+}
+.notice .notice-text{
+	float: left;
+	margin-top: -30px;
+	margin-left: 30px;
+}
+.notice .notice-text img{
+	position: absolute;
+	margin-top: 2px;
+	margin-left: -20px;
+}
+.notice .notice-text img{
+	color: red;
+	background: blue;
+}
+.notice .notice-text ul li a{
+	color: #333;
+}
+
+.inner-box{
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 1px #999;
+	margin-top: 20px;
+	background: #F5F5F5;
+	padding: 5px;
+	height: 160px;
+}
+.inner-box h5{
+	display: block;
+	overflow: hidden;
+}
+
+.inner-box ul img{
+	position: absolute;
+	margin-left: -20px;
+}
+.inner-box ul li{
+
+}
+.inner-box ul li a{
+	color: #666;
+}
+.single-bottom .left-img{
+	width: 110px;
+	position: relative;
+	display: inline-block;
+}
+.single-bottom .right-text{
+	position: absolute;
+	margin-top: -100px;
+	margin-left: 100px;
+}
+.video{
+	float: left;
+	display: inline-block;
+	overflow: hidden;
+	width: 700px;
+	height: 500px;
+	margin-top: 20px;
+	position: center;
+	margin-left: 18px;
+}
+.video-text{
+	margin-top: 20px;
+	background: green;
+	z-index: 400;
+	margin-left: 18px;
+	position: absolute;
+}
+.video-text h3{
+	display: block;
+	width: 100%;
+	color: #fff;
+	padding: 0 272px;
+	overflow: hidden;
+}
+
+.sinlge-sidebar h5{
+	color: #fff;
+	padding: 5px ;
+	background: green;
+}
+.sinlge-sidebar ul img{
+	position: absolute;	
+	margin-left: -40px;
+}
+.sinlge-sidebar ul li{
+	list-style: none;
+	border-bottom: 1px solid #666;
+}
+.sinlge-sidebar ul li a{
+	margin-left: px;
+	text-decoration: none;
+	color: #666;
+	list-style: none;
+}
+
+.footer img{
+	margin-left: 30px;
+	margin-top: 50px;
+}
+.footer .menu{
+	float: left;
+	display: inline-block;
+}
+.footer ul li{
+	list-style: none;
+	border-right: 2px dotted #666;
+}
+.footer ul li a{
+	color: #666;
+}
+.footer ul li:hover{
+	background: #444;
+}
+.footer ul li:hover a{
+	color: #fff;
+}
+.footer p{
+	float: right;
+	font-size: 14px;
+	display: inline-block;
+	margin-top: 30px;
+}
+.copyright{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
